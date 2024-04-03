@@ -1,0 +1,9 @@
+<div class="cadastro-pedidos">
+  <h2>Cadastro de Pedidos</h2>
+  <input [(ngModel)]="numeroPedido" placeholder="Código do pedido" type="number">
+  <input [(ngModel)]="cpfCliente" placeholder="cpf" type="text">
+  <input [(ngModel)]="codigoProduto" placeholder="Código do produto" type="number">
+  <input [(ngModel)]="dataDoPedido" placeholder="Data do pedido" type="text">
+  <input [(ngModel)]="quantidadeDeProdutos" placeholder="Quantidade de produtos" type="number">
+  <button (click)="adicionarPedido()">Adicionar Pedido</button>
+</div>
